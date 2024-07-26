@@ -1,0 +1,311 @@
+---
+title: "CORE PROJECT"
+author: "Nika Dassatti"
+date: "5/11/2024"
+output:
+  html_document:
+     code_folding: hide
+---
+
+
+# Overview 
+  Alaska produces a large fraction of the total salmon catch in North America (Wertheimer, 1997). Pacific salmon are anadromous species who return to their origin rivers to breed, a life strategy which has resulted in many stocks, or reproductively isolated populations (Groot et al. 1991). Salmon are of high economic and ecological value, and there has been an increase in research to understand their life histories and biology in order to inform responsible management. A better understanding of salmon life cycles can help fisheries manage stock and predict abundance (NOAA Fisheries). Today, salmon fisheries are one of the most robust and sustainable fisheries, however this was not always the case (Clark et al. 2006). Salmon in Alaska was historically valued as an important resource by many indigenous groups (Clark et al. 2006). In the late 1800's and early 1900's, with improvements in technology, the commercial fishing industry grew rapidly (Clark et al. 2006). Up until the 1950's, Alaska salmon fisheries were federally managed, and as few as 25 announcements were made per year regarding the status and regulations of Alaska salmon fisheries (Clark et al. 2006). By 1959, Alaska gained statehood control of its fisheries (Clark et al. 2006). State legislatures and local biologists were left with the task of rehabilitating runs which had become highly depleted and depressed due to prior overexploitation and poor management (Clark et al. 2006). In the 1970's, a series of changes in management, legislation, and hatchery programs were implemented which rebuilt salmon stocks (Clark et al. 2006). In 1973, the Alaska legislature passed a bill creating the first comprehensive limited entry program in the United States. The Limited Entry Act implemented for commercial salmon fisheries in Alaska stabilized the number of fishermen in each of the State’s salmon fisheries, as well as regulated gear use (Clark et al. 2006). This was one of many bills enacted in the 1970's which collectively enabled fisheries to be regulated at a local scale, and rehabilitated to maximize economic and long term ecological goals (Clark et al. 2006). Also in the early 1970's, the Fisheries Rehabilitation, Enhancement, and Development Division was initiated with the goal to implement the Alaska Hatcheries Program (Heard 2003). Since these legislative changes, yields have reached an all time high (White 2010, Clark et al. 2006). This high level of catch however is not uniform across species (NOAA Fisheries). This is because Salmon are caught using abundance based fisheries management (NOAA Fisheries). With more carefully managed stocks, the sustainable harvest is managed at a fisheries level scale, and is not the same across all five species: Chum, Chinook, Coho, Sockeye, and Pink. Although catch cannot be used as an indicator of species abundance, for an abundance based fisheries there should be a significant difference in the species catch if their natural abundances differ. 
+
+  NOAA catch data can be used to gain a better understanding of how salmon catch has changed over time as well as how it differs between species. This data is compiled by NOAA Landings Fisheries One Stop Shop (FOSS) data repository (NOAA Fisheries). This data is compiled by automated programs made possible by state and federal efforts. This program allows easy public access to fisheries data from state mandated fishery trip-tickets, weigh out reports, federal logbooks, and interviews. Data is available for all states from 1950-2022 for many species of fish as well as invertebrate species. 
+
+  For my investigation, I have chosen to look at the status of salmon stocks in regards to the catch of salmon reported by NOAA fisheries data before and after 1973. I am interested in assessing whether the effects of legislative changes and improved regulation are visible with changes in catch data. I will test this hypothesis using a Mann-Whitney U test, the non-parametric alternative to a t-test. The non-parametric test was used since the data were not normal nor were the variances equal. I am also interested in seeing whether the abundance based fisheries approach is reflected in the differences in catch between the five species of Pacific Salmon. Based on the increased regulation and improved management practices associated with the legislative changes made in 1973, I hypothesize that the mean total catch of salmon will be significantly higher in the years preceding 1973 than those prior. Furthermore, since salmon fisheries are managed using an abundance based approach, I hypothesize that there is a significant difference between the distribution of the five salmon populations. To test this hypothesis, I will use a Kruskal Wallis test followed by the appropriate post-hoc test, a dunn test. A Kruskal Wallis test is a non-parametric alternative to an ANOVA, used when the assumptions of an ANOVA are not met.
+
+
+# Setup 
+```{r setup, include=TRUE, warning= FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+#load necessary packages
+
+library(tidyverse)
+library(here)
+library(lubridate)
+library(cowplot)
+library(RColorBrewer)
+library(PMCMRplus)
+library(dunn.test)
+library(car)
+library(gridExtra)
+
+
+```
+
+# Data wrangling
+```{r}
+data_raw<- read.csv("FOSS_landings.csv", header=T) # read in data
+colnames(data_raw) <- c("year", "state","nmfs_name", "pounds", "metric_tons","dollars","confidentiality","collection","sci_name","tsn","source") # renaming columns to proper headers
+clean_fish1 <- data_raw[-which(rownames(data_raw) == "1"), ] # removing 'header' row
+
+fish_state<-clean_fish1%>%
+  group_by("state")%>%
+  na.omit()%>%
+  filter(confidentiality != "Confidential")%>%
+  filter(state!= "PROCESS AT SEA")
+fish_state$pounds = gsub(",", "", fish_state$pounds)
+fish_state$pounds<- as.numeric(fish_state$pounds)
+fish_state$metric_tons = gsub(",", "", fish_state$metric_tons)
+fish_state$metric_tons<- as.numeric(fish_state$metric_tons)
+fish_state$dollars = gsub(",", "", fish_state$dollars)
+fish_state$dollars<- as.numeric(fish_state$dollars)
+
+  
+
+salmon<-fish_state%>%
+  filter(nmfs_name == "SALMON, CHINOOK" | nmfs_name == "SALMON, COHO" | nmfs_name == "SALMON, CHUM"| nmfs_name == "SALMON, PINK"| nmfs_name ==
+"SALMON, SOCKEYE")
+```
+```{r eval=FALSE, include=FALSE}
+pbs <- fish_state %>%
+  group_by(state) %>%
+  mutate(total_pounds = sum(pounds)) %>%
+  ungroup()
+
+totals<-pbs %>%
+  group_by(state)%>%
+  mutate(total_dollars = sum (dollars))%>%
+  ungroup
+
+```
+
+
+# Construction of Figure 1
+```{r echo=TRUE, fig.cap= "Figure 1: Time series of total salmon catch in metric tons by year for five salmon species harvested in Alaska; Chinook, Chum, Coho, Pink, and Sockeye. Color coresponds to species and each dot represents one year. Data represented is from NOAA FOSS Landings commercial fishing repository and represents total catch as reported by state mandated fishery trip-tickets, weightout reports, federal logbooks, and interviews (NOAA Fisheries)." }
+
+salmon_AK<-salmon%>%
+  filter(state == "ALASKA")
+
+
+salmon_AK$metric_tons<-salmon_AK$metric_tons/1000
+
+salmon_time<-ggplot(salmon_AK, aes(x= year, y= metric_tons, group = nmfs_name, color= nmfs_name))+
+    scale_color_brewer(name = "Species name (common)", palette = "Dark2")+
+  geom_point()+
+  geom_line()+
+  theme_classic()+
+  labs(x = "Year", y = "Thousand Metric Tons") +
+  theme(axis.text.x = element_text(size = 8))+
+  scale_x_discrete(breaks = seq(1950, 2022, by = 5))
+ salmon_time
+
+# there is most variability in pink salmon, which some years has the highest catch but some years drops way down. There is least variability in chinook and coho, which also have the lowest catch 
+
+#sockeye salmon spend 1-4 years in freshwater and 1-3 years in the ocean. They are the third most abundant species of salmon in the pacific. Most economically important species of salmon in AK. 
+
+#coho and chinook often over fished
+```
+
+# Construction of Figure 2: 
+```{r echo=TRUE, fig.cap= "Figure 2: Boxplot of total salmon catch in  metric tons before and after 1973 in Alaksa. Error bars represent one standard error of the mean. Data represended is from NOAA FOSS Landings commercial fishing repository and represents total catch as reported by state mandated fishery trip-tickets, weightout reports, federal logbooks, and interviews (NOAA Fisheries). Salmon catch data was grouped into Before and After groups relative to 1973, the year the first limited entry program was implemented by Alaska Legislatures."}
+salmon1970<-salmon_AK%>%
+  mutate(industrial= ifelse(year <1973, "1950-1973 (Before)", "1973-2022 (After)" ))
+
+ba<-ggplot(salmon1970, aes(x= industrial, fill = industrial, y= metric_tons))+
+  geom_boxplot()+
+  theme_classic()+
+  labs(y= "Thousand Metric Tons", x ="Time Period Relative to 1973")+
+  scale_fill_brewer(name = "Time Period Relative to 1973", palette = "Dark2")
+ba
+  
+#two sample t test to see if there is a significant difference before and after 1970 (ish) when canning started 
+```
+
+# Construction of Figure 3: 
+```{r echo=TRUE, fig.cap= "Figre 3: Boxplot of total slamon catch in metric tons by species in Alaska. Error bars represent one standard error of the mean. Data is from NOAA FOSS Landings commercial fishing repository and represents total catch as reported by state mandated fishery trip-tickets, weightout reports, federal logbooks, and interviews (NOAA Fisheries). Data is grouped by species." }
+
+subsetsalmon<-subset(salmon_AK, select = c(nmfs_name, metric_tons))
+species<-ggplot(subsetsalmon, aes(x=nmfs_name, y= metric_tons, fill = nmfs_name))+
+  scale_fill_brewer(name = "Species Name (Common)", palette = "Dark2")+
+  geom_boxplot()+
+  theme_classic()+
+  labs(x = "Species Name (Common)", y = "Thousand Metric Tons") +
+  theme(axis.text.x = element_text(size = 6))
+
+species
+
+
+#the plots for money and metric tons line up well, does not seem one species of salmon has a much higher profit value than another 
+```
+https://www.adfg.alaska.gov/index.cfm?adfg=sockeyesalmon.printerfriendly 
+https://www.fisheries.noaa.gov/west-coast/sustainable-fisheries/status-salmon-stocks-managed-under-magnuson-stevens-act-west-coast 
+
+
+# Statistical Testing 
+# Hypothesis 1: 
+The mean total catch of salmon will be significantly higher in the years preceding 1973 than those prior. 
+# Assumptions For Hypothesis 1: 
+To test hypothesis one, I will run a statistical test that compares the means of my two groups. The parametric test to compare means is a t-test. Since I am comparing the means to two independent groups, I began by statistical analysis by testing whether my data meets the assumptions of a two-sample t-test. The assumptions for a two-sample t-test are that the samples are random independent samples, the y-variable is normally distributed, and that there is homogeneity of variance. Data are from random and independent samples. To test normality, I made histograms to graph the distribution of the response variable, metric tons. The histogram did not appear normal, so I ran a log transformation on my data followed by a square-root transformation, neither of which normalized the distribution much. In addition, I ran a Shapiro-wilks test to asses normality. The null hypothesis for a Shapiro-wilks test is that the data are normally distributed. Since my p-value for the Shapiro-wilks test is less than 0.05, we reject the null hypothesis that the data are normally distributed. To test the homogeneity of variance assumption, I ran a Levene's test. The null hypothesis of a Levene's test is that the variances are equal. Since the p-value of the Levene's test is less than 0.05, we reject the null hypothesis that the variances are equal. Since that data are not normal nor are the variances equal, I ran a Wilcoxon rank-sum test or Mann-Whitney U test, a non-parametric alternative to compare the central tendency of two groups. The only assumption that must be met for a Wilcoxon rank-sum test is that the data are independent. 
+```{r echo=TRUE, fig.cap= "Figre 4: Histogram of catch in metric tons for (a) untransformed data, (b) log-trandformed data, (c) square root-transformed data. Data is grouped by time period, 1950-1973 and 1973-2022 Data is from NOAA FOSS Landings commercial fishing repository and represents total catch as reported by state mandated fishery trip-tickets, weightout reports, federal logbooks, and interviews (NOAA Fisheries). Data are not normally distributed for any transformation."}
+#checking assumption of normality (visually)
+histogram1970<-ggplot(salmon1970, aes(x=metric_tons, fill = industrial))+
+  geom_histogram(bins = 100, binwidth = 3)+
+  theme_classic()+
+  labs(x="Salmon catch (thousand metric tons)", y="Frequency")+ #changing labels
+  ggtitle("untransformed data (a)")+ #title 
+  theme(axis.title=element_text(size=8), plot.title = element_text(size = 6))+
+  scale_fill_brewer(name = "Time Period Relative to 1973", palette = "Dark2")
+
+log_1970<-salmon1970%>%
+  mutate(log_metrictons= log(metric_tons))
+
+log1970H<-ggplot(log_1970, aes(x=log_metrictons, fill= industrial))+
+  geom_histogram(bins= 100, bindwidth= 3)+
+  theme_classic()+
+  labs(x="Log of salmon catch (thousand metric tons", y="Frequency")+ #changing labels
+  ggtitle("log-transformed data (b)")+ #title 
+  theme(axis.title=element_text(size=8), plot.title = element_text(size = 6))+
+  scale_fill_brewer(name = "Time Period Relative to 1973", palette = "Dark2")
+
+sq_1970<-salmon1970%>%
+  mutate(sqmt= sqrt(metric_tons))
+
+s1970H<-ggplot(sq_1970, aes(x=sqmt, fill= industrial))+
+  geom_histogram(bins= 100)+
+  theme_classic()+
+  labs(x="Sqrt of salmon catch (thousand metric tons)", y="Frequency")+ #changing labels
+  ggtitle("square-root-transformed data (c)")+ #title 
+  theme(axis.title=element_text(size=8), plot.title = element_text(size = 6))+
+  scale_fill_brewer(name = "Time Period Relative to 1973", palette = "Dark2")
+
+
+grid.arrange(histogram1970, log1970H, s1970H, ncol=1)
+
+#checking equality of variance: 
+#since the data are not normal for any transformation, I ran the levenes test with the untransformed data. 
+leveneTest(metric_tons~industrial, data=log_1970)
+```
+
+## Statistical Test 1: Wilcoxon rank-sum / Mann-Whitney U test:
+Null hypothesis: There is no significant difference between the median total salmon catch (metric tons) in Alaska before and after 1973. 
+
+Alternative hypothesis: There is a significant difference between the median total salmon catch (metric tons) in Alaska before and after 1973. 
+```{r}
+wilcox.test(salmon1970$metric_tons~ salmon1970$industrial)
+```
+Based on the results of this test, there is a significant difference between the median total salmon catch (metric tons) before and after 1973. With a 95% confidence interval and 0.05 alpha level, a p-value of 1.309e-05, which is less than 0.05, we can reject the null hypothesis that there is not significant difference between the median salmon catch before and after 1973. The test statistic for this test is 10293 Degrees of freedom are not required for a Wilcoxon rank sum test. 
+
+## Hypothesis 2 
+The distribution of total catch in metric tons between Chinook, Chum, Coho, Pink, and Sockeye is significantly different.
+
+## Assumptions for Hypothesis 2
+For my second statistical test, I wish to compare the central tenancies of more than two groups, in this case five. The parametric test used to compare the means of multiple groups is an ANOVA. The assumptions of an ANOVA are that the data are from independent samples, the data are normally distributed, and that there variances are equal. To test the normality assumption, I mad a of histogram of my untransformed data to visualize the distribution of the y-variable, metric tons and paired this with a Shapiro-wilks test. Seeing as the untransformed data were not normally distributed, I tried a log transformation on the data as well as a square root transformation, neither of which normalized the distribution based on the histograms as well as the results of the Shapiro-wilks test (p< 0.05). Next, I check the homogeneity of variance assumption using a Levene's test. The p-value for the Levene's test was < 0.05 so the variances are not equal. Since the data are not normally distributed nor are their variances equal, I ran a Kruskal-Wallis test, a non-parametric alternative to an ANOVA when the assumptions of normality and homogeneity of variance are violated. Data are from random and independent samples
+```{r echo=TRUE, fig.cap= "Figre 5: Histograms of salmon catch in metric tons for (a) untransformed data, (b) log-trandformed data, (c) square root-transformed data. Data is grouped by species. Data is from NOAA FOSS Landings commercial fishing repository and represents total catch as reported by state mandated fishery trip-tickets, weightout reports, federal logbooks, and interviews (NOAA Fisheries). Data are not normally distributed for any species or transformation."}
+
+#checking assumption of normality (visually)
+histogram1<-ggplot(salmon_AK, aes(x=metric_tons, fill = nmfs_name))+
+  geom_histogram(bins = 50)+
+  facet_wrap(~nmfs_name, ncol= 5)+
+  theme_light()+
+  labs(x="Salmon catch (thousand metric tons)", y="Frequency")+ #changing labels
+  ggtitle("untransformed data (a)")+ #title 
+  scale_fill_brewer(name = "Species Name (Common)", palette = "Dark2")+
+  theme(axis.title=element_text(size=8), plot.title = element_text(size = 6)) 
+
+log_salmon<-salmon_AK%>%
+  mutate(log_metric_tons = log(metric_tons))
+
+histogram2<-ggplot(log_salmon, aes(x=log_metric_tons, fill = nmfs_name))+
+  geom_histogram(bins = 45)+
+  facet_wrap(~nmfs_name, ncol = 5)+
+  theme_light()+
+  labs(x="Log of salmon catch (thousand metric tons)", y="Frequency")+ #changing labels
+  ggtitle("log-transformed data (b)")+ #title 
+  scale_fill_brewer(name = "Species Name (Common)", palette = "Dark2")+
+  theme(axis.title=element_text(size=8), plot.title = element_text(size = 6)) 
+
+sqrt_salmon<-salmon_AK%>%
+  mutate(sqrt_mt = sqrt(metric_tons))
+
+histogram3<-ggplot(sqrt_salmon, aes(x=sqrt_mt, fill = nmfs_name))+
+  geom_histogram(bins = 45)+
+  facet_wrap(~nmfs_name, ncol= 5)+
+  theme_light()+
+  labs(x="Srrt of salmon catch (thousand metric tons)", y="Frequency")+ #changing labels
+  ggtitle("sqrt-transformed data (c)")+ #title 
+  scale_fill_brewer(name = "Species Name (Common)", palette = "Dark2")+
+  theme(axis.title=element_text(size=8), plot.title = element_text(size = 6)) 
+
+grid.arrange(histogram1, histogram2, histogram3, nrow=3)
+
+#Checking normality of the distribution of catch in metric tons for each species: 
+log_pink<-log_salmon%>%
+  filter(nmfs_name=="SALMON, PINK")
+shapiro.test(log_pink$log_metric_tons) # p - value is greater than 0.05, we fail to reject the null hypothesis that the data are normally distributed
+
+log_chinook<-log_salmon%>%
+  filter(nmfs_name=="SALMON, CHINOOK")
+shapiro.test(log_chinook$log_metric_tons) #p - value is less than o.05, the data are not normally distributed 
+
+log_chum<-log_salmon%>%
+  filter(nmfs_name=="SALMON, CHUM")
+shapiro.test(log_chum$log_metric_tons) # p - value is greater than 0.05, we fail to reject
+
+log_coho<-log_salmon%>%
+  filter(nmfs_name=="SALMON, COHO")
+shapiro.test(log_coho$log_metric_tons)
+
+log_sockeye<-log_salmon%>%
+  filter(nmfs_name=="SALMON, SOCKEYE")
+shapiro.test(log_sockeye$log_metric_tons) # p- value is less than 0.05, reject 
+
+#checking equal variance assumption: 
+leveneTest(log_metric_tons ~ nmfs_name, data= log_salmon) #variances are not equal 
+```
+
+## Statistical Test for Hypothesis 2: Kruskal-Wallis test and Dunn's test post-hoc
+Null Hypothesis: There is no significant difference between the distribution of catch in metric tons for any of the species of salmon.  
+
+Alternative Hypothesis: One or more species of salmon has a significantly different distribution of catch in metric tons than the others. 
+```{r}
+kruskal.test(metric_tons ~ nmfs_name, data = salmon_AK)
+#p value is < 0.05, the difference between the means of the groups is not zero 
+```
+Based on the results of the Kruskal-Wallis test, there is a significant difference in the distribution of catch in metric tons between one or more species. The p value is < 2.2e-16 which is less than 0.05, therefore we reject the null hypothesis. The degrees of freedom for this test is four, and the chi-squared test statistic is 286.01 
+```{r}
+renamesalmon<-salmon_AK%>%
+  mutate(nmfs_name = ifelse(nmfs_name == "SALMON, CHINOOK", "Chinook", nmfs_name))%>%
+  mutate(nmfs_name = ifelse(nmfs_name == "SALMON, CHUM", "Chum", nmfs_name))%>%
+  mutate(nmfs_name = ifelse(nmfs_name == "SALMON, COHO", "Coho", nmfs_name))%>%
+  mutate(nmfs_name = ifelse(nmfs_name == "SALMON, PINK", "Pink", nmfs_name))%>%
+  mutate(nmfs_name = ifelse(nmfs_name == "SALMON, SOCKEYE", "Sockeye", nmfs_name))
+
+```
+Following the Kruskal-Wallis test, I ran a Dunn's test to determine which species have a significantly different distribution. Based on the results, there is a significant difference between the distributions of the total catch in metric tons for all salmon except between Pink and Sockeye. 
+```{r}
+attach(renamesalmon)
+dunn.test(metric_tons, nmfs_name, kw=TRUE)
+```
+
+# Conclusions 
+
+  This analysis suggests that Salmon catch in Alaska varies over time as well as  by species. The anadromous life style of salmon makes them a unique and complex study species in regards to fisheries science. This is because unlike pelagic fish that coincide only in international waters, Pacific Salmon spend much of their fundamental life stages in rivers therefore regulation at the state level has a great impact on the dynamic trends seen in the catch data (NOAA Fisheries). The results of this analysis indicate that the median total salmon catch in Alaska was significantly higher in the years following 1973 than those prior. Based on the literature in combination with the data, it is likely that this change can be largely attributed to changes in Alaska salmon management starting in the 1970's in regards to both legislation as well as hatcheries programs. In combination, these shifts in management appear to have had a remarkable impact on the commercial fishing industry. This is supported by a number of other studies which report not only higher years directly after the initial legislative changes, but recovery that appears to be long-lived and sustainable as appears in my time series (Figure 1). A report by Clark et al. in 2006 found that salmon catch in 1990's was four times higher than catch in the 1970's (Clark et a. 2006). Furthermore, an analysis of salmon fisheries by White in 2010 reported a sustained increase in the years following the 70's in relation to those prior, and additionally found that over 27% of catch was supplemented by hatchery salmon (White 2010). Furthermore, based on this analysis, the distribution of salmon catch is significantly different for all five species of Pacific salmon except Pink and Sockeye. This was expected based on the abundance based fisheries management approach used in Alaska Salmon Fisheries (NOAA Fisheries). Furthermore, other studies found that although on a state wide scale salmon catch increased following a series of management changes, some stocks specific to one watershed or fishery are in decline and trends are variable by species (Lackey 1999). 
+  
+  This guides me into future directions that should be considered following this analysis: even with what seems to be improved management approaches and a slough of scientific knowledge, salmon policy is challenging (Lackey 1999). As climate change continues to change the chemical and physical properties of oceans, including area biologists to understand species-specific life cycle changes will become increasingly important. Furthermore, this analysis was conducted using only commercial fisheries data and therefore does not include subsistence fisheries in the findings, including those of Indigenous groups. The Alaska fisheries policy regime is considered one of the best managed fisheries in the world, but the conservation approaches almost entirely exclude non-Western knowledge systems (Wlasey et al. 2018). The Gwich'in, have established a sustainable 30,000 year relationship with their environment, yet despite this are excluded from fisheries management (Walsey et al. 2018). Moving forward, management decisions should include more two-eyed seeing approaches and traditional ecological knowledge to benefit conservation as well as a more diverse population of people (Walsey et al. 2018). Furthermore, with any increased management it is crucial to consider whether restrictions will disproportionately exclude one demographic group from access to a shared resource. With these future considerations in mind, the results of this analysis tell the story of an overall successful fisheries rehabilitation that perhaps can inform and influence other fisheries management regimes in the future. With the combination of ecological and biological knowledge, improved management, advanced hatcheries, and in the future more climate considerations and inclusion of more diverse knowledge in management decisions, resources can be better sustained and shared to benefit both people and the planet. 
+
+# Data Summary and Citation 
+
+## Data Summary 
+ Data used is from the NOAA Commercial Landings data repository. This data is compiled by automated programs made possible by state and federal efforts. This program allows easy public access to fisheries data from state mandated fishery trip-tickets, weightout reports, federal logbooks, and interviews. Data is available for all states from 1950-2022 for many species of fish as well as invertebrate species
+ 
+NOAA Fisheries Office of Science and Technology, Commercial Landings Query, Available at: www.fisheries.noaa.gov/foss, Accessed 05/02/2024
+
+## Citations: 
+
+Clark, J. H., McGregor, A., Mecum, R. D., Krasnowski, P., & Carroll, A. M. (2006). The commercial salmon fishery in Alaska. Alaska Fishery Research Bulletin, 12(1), 1-146.
+
+Groot, C., & Margolis, L. (Eds.). (1991). Pacific salmon life histories. UBC press.
+
+Lackey, R. T. (1999). Salmon policy: science, society, restoration, and reality. Environmental Science & Policy, 2(4-5), 369-379. 
+
+NOAA Fisheries. “Salmon Life Cycle and Seasonal Fishery Planning.” NOAA, 6 Oct. 2022, www.fisheries.noaa.gov/west-coast/sustainable-fisheries/salmon-life-cycle-and-seasonal-fishery-planning#more-information.  
+
+Walsey, V., & Brewer, J. (2018). Managed out of existence: over-regulation of Indigenous subsistence fishing of the Yukon River. GeoJournal, 83(5), 1169-1180
+
+Wertheimer, A. C. (1997). Status of Alaska salmon. In Pacific Salmon & their Ecosystems: Status and Future Options (pp. 179-197). Boston, MA: Springer US.
+
+White, B. A. (2010). Alaska salmon enhancement program 2007 annual report. Alaska Department of Fish and Game, Division of Sport Fish, Research and Technical Services
+
+
