@@ -1,0 +1,602 @@
+,,,,,,,,,,
+Year,State,NMFS Name,Pounds,Metric Tons,Dollars,Confidentiality,Collection,Scientific Name,Tsn,Source
+2022,ALABAMA,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,ALABAMA,"TUNA, BLACKFIN","101,464",46,"173,788",Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2022,ALABAMA,"TUNA, LITTLE TUNNY","27,764",13,"23,709",Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2022,ALABAMA,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,CALIFORNIA,"TUNA, ALBACORE","495,898",225,"976,577",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2022,CALIFORNIA,"TUNA, BIGEYE","509,879",231,"1,938,769",Public,Commercial,Thunnus obesus,172428,PACFIN
+2022,CALIFORNIA,"TUNA, BLUEFIN PACIFIC","810,929",368,"2,215,658",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2022,CALIFORNIA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,PACFIN
+2022,CALIFORNIA,"TUNA, YELLOWFIN","1,075,991",488,"1,134,993",Public,Commercial,Thunnus albacares,172423,PACFIN
+2022,CALIFORNIA,TUNAS **,,,,Confidential,Commercial,Thunnus,172418,PACFIN
+2022,CONNECTICUT,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,CONNECTICUT,"TUNA, BIGEYE","34,073",15,"249,830",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,CONNECTICUT,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,CONNECTICUT,"TUNA, LITTLE TUNNY",2,0,1,Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,CONNECTICUT,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,CONNECTICUT,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,FLORIDA-EAST,"TUNA, ALBACORE","112,001",51,"245,655",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,FLORIDA-EAST,"TUNA, BIGEYE","54,181",25,"217,156",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,FLORIDA-EAST,"TUNA, BLACKFIN","8,229",4,"12,944",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2022,FLORIDA-EAST,"TUNA, BLUEFIN","10,380",5,"44,150",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,FLORIDA-EAST,"TUNA, LITTLE TUNNY","294,466",134,"211,220",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,FLORIDA-EAST,"TUNA, SKIPJACK",216,0,436,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,FLORIDA-EAST,"TUNA, YELLOWFIN","104,857",48,"433,122",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,FLORIDA-WEST,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,FLORIDA-WEST,"TUNA, BIGEYE","7,584",3,"34,037",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,FLORIDA-WEST,"TUNA, BLACKFIN","9,979",5,"17,452",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2022,FLORIDA-WEST,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,FLORIDA-WEST,"TUNA, LITTLE TUNNY","55,033",25,"44,988",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,FLORIDA-WEST,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,FLORIDA-WEST,"TUNA, YELLOWFIN","233,399",106,"1,031,278",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,GEORGIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,HAWAII,"TUNA, ALBACORE","316,194",143,"654,842",Public,Commercial,Thunnus alalunga,172419,PIFSC
+2022,HAWAII,"TUNA, BIGEYE","14,470,725","6,564","73,712,829",Public,Commercial,Thunnus obesus,172428,PIFSC
+2022,HAWAII,"TUNA, BLUEFIN","5,055",2,"37,331",Public,Commercial,Thunnus thynnus,172421,PIFSC
+2022,HAWAII,"TUNA, KAWAKAWA","1,385",1,"5,129",Public,Commercial,Euthynnus affinis,172403,PIFSC
+2022,HAWAII,"TUNA, SKIPJACK","302,675",137,"863,315",Public,Commercial,Katsuwonus pelamis,172401,PIFSC
+2022,HAWAII,"TUNA, YELLOWFIN","6,658,044","3,020","28,292,046",Public,Commercial,Thunnus albacares,172423,PIFSC
+2022,LOUISIANA,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,LOUISIANA,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,LOUISIANA,"TUNA, BLACKFIN",733,0,582,Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2022,LOUISIANA,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,LOUISIANA,"TUNA, LITTLE TUNNY","3,013",1,"2,974",Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2022,LOUISIANA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,LOUISIANA,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,MAINE,"TUNA, BLUEFIN","364,259",165,"1,891,498",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,MARYLAND,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,MARYLAND,"TUNA, BIGEYE","115,266",52,"766,686",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,MARYLAND,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2022,MARYLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,MARYLAND,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,MARYLAND,"TUNA, YELLOWFIN","35,447",16,"113,832",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,MASSACHUSETTS,"TUNA, ALBACORE","10,654",5,"16,390",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,MASSACHUSETTS,"TUNA, BIGEYE","72,155",33,"447,656",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,MASSACHUSETTS,"TUNA, BLUEFIN","1,218,111",553,"6,288,194",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,MASSACHUSETTS,"TUNA, YELLOWFIN","120,711",55,"425,243",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,MISSISSIPPI,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2022,NEW HAMPSHIRE,"TUNA, BLUEFIN","195,674",89,"993,041",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,NEW HAMPSHIRE,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,NEW JERSEY,"TUNA, ALBACORE","38,063",17,"41,833",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,NEW JERSEY,"TUNA, BIGEYE","240,249",109,"1,633,631",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,NEW JERSEY,"TUNA, BLUEFIN","12,790",6,"48,075",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,NEW JERSEY,"TUNA, LITTLE TUNNY",565,0,727,Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,NEW JERSEY,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,NEW JERSEY,"TUNA, YELLOWFIN","85,934",39,"275,632",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,NEW YORK,"TUNA, ALBACORE","1,505",1,"2,005",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,NEW YORK,"TUNA, BIGEYE","18,234",8,"75,237",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,NEW YORK,"TUNA, BLUEFIN","36,964",17,"105,806",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,NEW YORK,"TUNA, LITTLE TUNNY","1,671",1,"2,844",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,NEW YORK,"TUNA, YELLOWFIN","24,318",11,"81,695",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,NORTH CAROLINA,"TUNA, ALBACORE",438,0,605,Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,NORTH CAROLINA,"TUNA, BIGEYE","649,445",295,"3,741,317",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,NORTH CAROLINA,"TUNA, BLACKFIN","20,017",9,"25,880",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2022,NORTH CAROLINA,"TUNA, BLUEFIN","289,573",131,"1,801,781",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,NORTH CAROLINA,"TUNA, LITTLE TUNNY","147,065",67,"165,423",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,NORTH CAROLINA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,NORTH CAROLINA,"TUNA, YELLOWFIN","545,295",247,"1,435,359",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,OREGON,"TUNA, ALBACORE","6,266,961","2,843","14,347,002",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2022,OREGON,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,PACFIN
+2022,OREGON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2022,OREGON,"TUNA, YELLOWFIN",429,0,"2,060",Public,Commercial,Thunnus albacares,172423,PACFIN
+2022,RHODE ISLAND,"TUNA, ALBACORE","10,867",5,"22,285",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,RHODE ISLAND,"TUNA, BIGEYE","186,479",85,"1,051,878",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,RHODE ISLAND,"TUNA, BLUEFIN","107,088",49,"341,638",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,RHODE ISLAND,"TUNA, LITTLE TUNNY","5,179",2,"6,827",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,RHODE ISLAND,"TUNA, YELLOWFIN","177,774",81,"487,185",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,SOUTH CAROLINA,"TUNA, ALBACORE","98,055",44,"294,085",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,SOUTH CAROLINA,"TUNA, BIGEYE","20,646",9,"115,400",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,SOUTH CAROLINA,"TUNA, BLACKFIN","1,620",1,"3,598",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2022,SOUTH CAROLINA,"TUNA, BLUEFIN","10,639",5,"51,403",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,SOUTH CAROLINA,"TUNA, LITTLE TUNNY","1,343",1,"1,294",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2022,SOUTH CAROLINA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,SOUTH CAROLINA,"TUNA, YELLOWFIN","29,296",13,"134,747",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,TEXAS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2022,TEXAS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2022,TEXAS,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,VIRGINIA,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2022,VIRGINIA,"TUNA, BIGEYE","29,241",13,"140,745",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2022,VIRGINIA,"TUNA, BLUEFIN","91,977",42,"567,239",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2022,VIRGINIA,"TUNA, YELLOWFIN","7,960",4,"21,552",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2022,VIRGINIA,TUNAS **,,,,Confidential,Commercial,Thunnus,172418,ACCSP
+2022,WASHINGTON,"TUNA, ALBACORE","9,101,268","4,128","19,049,142",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2021,ALABAMA,"TUNA, BLACKFIN","53,127",24,"68,960",Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2021,ALABAMA,"TUNA, LITTLE TUNNY","55,665",25,"43,364",Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2021,ALABAMA,"TUNA, YELLOWFIN","2,704",1,"10,793",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,CALIFORNIA,"TUNA, ALBACORE","485,389",220,"839,137",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2021,CALIFORNIA,"TUNA, BIGEYE","893,489",405,"2,938,308",Public,Commercial,Thunnus obesus,172428,PACFIN
+2021,CALIFORNIA,"TUNA, BLUEFIN PACIFIC","477,457",217,"1,767,053",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2021,CALIFORNIA,"TUNA, SKIPJACK","6,999",3,"7,327",Public,Commercial,Katsuwonus pelamis,172401,PACFIN
+2021,CALIFORNIA,"TUNA, YELLOWFIN","116,500",53,"326,190",Public,Commercial,Thunnus albacares,172423,PACFIN
+2021,CONNECTICUT,"TUNA, ALBACORE","2,570",1,"4,465",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,CONNECTICUT,"TUNA, BIGEYE","31,156",14,"210,926",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,CONNECTICUT,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,CONNECTICUT,"TUNA, LITTLE TUNNY",60,0,96,Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,CONNECTICUT,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2021,CONNECTICUT,"TUNA, YELLOWFIN","1,532",1,"6,418",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,FLORIDA-EAST,"TUNA, ALBACORE","174,169",79,"373,996",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,FLORIDA-EAST,"TUNA, BIGEYE","55,185",25,"233,272",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,FLORIDA-EAST,"TUNA, BLACKFIN","9,325",4,"15,869",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,FLORIDA-EAST,"TUNA, BLUEFIN","36,111",16,"144,726",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,FLORIDA-EAST,"TUNA, LITTLE TUNNY","308,862",140,"166,699",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,FLORIDA-EAST,"TUNA, SKIPJACK",326,0,519,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2021,FLORIDA-EAST,"TUNA, YELLOWFIN","104,734",48,"367,436",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,FLORIDA-WEST,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,FLORIDA-WEST,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,FLORIDA-WEST,"TUNA, BLACKFIN","12,742",6,"21,535",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,FLORIDA-WEST,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,FLORIDA-WEST,"TUNA, LITTLE TUNNY","27,189",12,"33,603",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,FLORIDA-WEST,"TUNA, YELLOWFIN","112,550",51,"497,254",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,GEORGIA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,HAWAII,"TUNA, ALBACORE","387,585",176,"625,633",Public,Commercial,Thunnus alalunga,172419,PIFSC
+2021,HAWAII,"TUNA, BIGEYE","15,174,721","6,883","74,616,271",Public,Commercial,Thunnus obesus,172428,PIFSC
+2021,HAWAII,"TUNA, BLUEFIN","4,392",2,"23,104",Public,Commercial,Thunnus thynnus,172421,PIFSC
+2021,HAWAII,"TUNA, KAWAKAWA","1,932",1,"5,923",Public,Commercial,Euthynnus affinis,172403,PIFSC
+2021,HAWAII,"TUNA, SKIPJACK","281,463",128,"561,366",Public,Commercial,Katsuwonus pelamis,172401,PIFSC
+2021,HAWAII,"TUNA, YELLOWFIN","6,660,677","3,021","27,473,589",Public,Commercial,Thunnus albacares,172423,PIFSC
+2021,LOUISIANA,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,LOUISIANA,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,LOUISIANA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2021,LOUISIANA,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,LOUISIANA,"TUNA, LITTLE TUNNY",467,0,390,Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2021,LOUISIANA,"TUNA, YELLOWFIN","238,552",108,"1,017,083",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,MAINE,"TUNA, BLUEFIN","411,136",186,"2,280,147",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,MARYLAND,"TUNA, ALBACORE","3,713",2,"6,080",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,MARYLAND,"TUNA, BIGEYE","110,509",50,"701,739",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,MARYLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,MARYLAND,"TUNA, YELLOWFIN","44,095",20,"137,156",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,MASSACHUSETTS,"TUNA, ALBACORE","35,018",16,"54,226",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,MASSACHUSETTS,"TUNA, BIGEYE","176,680",80,"994,927",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,MASSACHUSETTS,"TUNA, BLUEFIN","1,113,699",505,"6,207,471",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,MASSACHUSETTS,"TUNA, YELLOWFIN","90,802",41,"382,574",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,MISSISSIPPI,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2021,NEW HAMPSHIRE,"TUNA, BLUEFIN","162,492",74,"858,266",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,NEW HAMPSHIRE,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,NEW JERSEY,"TUNA, ALBACORE","52,008",24,"59,137",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,NEW JERSEY,"TUNA, BIGEYE","252,664",115,"1,724,651",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,NEW JERSEY,"TUNA, BLUEFIN","30,871",14,"139,335",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,NEW JERSEY,"TUNA, LITTLE TUNNY","2,390",1,"3,152",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,NEW JERSEY,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2021,NEW JERSEY,"TUNA, YELLOWFIN","121,713",55,"436,847",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,NEW YORK,"TUNA, ALBACORE","14,182",6,"22,991",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,NEW YORK,"TUNA, BIGEYE","64,941",29,"393,264",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,NEW YORK,"TUNA, BLUEFIN","11,129",5,"31,398",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,NEW YORK,"TUNA, LITTLE TUNNY","1,477",1,"2,364",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,NEW YORK,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2021,NEW YORK,"TUNA, YELLOWFIN","59,442",27,"222,430",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,NORTH CAROLINA,"TUNA, ALBACORE",463,0,583,Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,NORTH CAROLINA,"TUNA, BIGEYE","512,358",232,"2,980,314",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,NORTH CAROLINA,"TUNA, BLACKFIN","30,270",14,"26,393",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,NORTH CAROLINA,"TUNA, BLUEFIN","308,273",140,"1,580,619",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,NORTH CAROLINA,"TUNA, LITTLE TUNNY","105,306",48,"106,957",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,NORTH CAROLINA,"TUNA, SKIPJACK",453,0,521,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2021,NORTH CAROLINA,"TUNA, YELLOWFIN","480,082",218,"1,653,205",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,OREGON,"TUNA, ALBACORE","3,222,545","1,462","6,615,951",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2021,OREGON,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,PACFIN
+2021,OREGON,"TUNA, BLUEFIN PACIFIC",241,0,726,Public,Commercial,Thunnus orientalis,172422,PACFIN
+2021,OREGON,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,PACFIN
+2021,RHODE ISLAND,"TUNA, ALBACORE","46,985",21,"62,823",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,RHODE ISLAND,"TUNA, BIGEYE","242,661",110,"1,388,310",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,RHODE ISLAND,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,RHODE ISLAND,"TUNA, BLUEFIN","67,490",31,"356,760",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,RHODE ISLAND,"TUNA, LITTLE TUNNY","12,799",6,"12,124",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,RHODE ISLAND,"TUNA, YELLOWFIN","120,444",55,"423,205",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,SOUTH CAROLINA,"TUNA, ALBACORE","161,765",73,"412,990",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,SOUTH CAROLINA,"TUNA, BIGEYE","22,324",10,"116,148",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,SOUTH CAROLINA,"TUNA, BLACKFIN","1,301",1,"3,003",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,SOUTH CAROLINA,"TUNA, BLUEFIN","4,210",2,"8,644",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,SOUTH CAROLINA,"TUNA, LITTLE TUNNY","4,311",2,"3,119",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,SOUTH CAROLINA,"TUNA, YELLOWFIN","36,986",17,"177,532",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,TEXAS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2021,VIRGINIA,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2021,VIRGINIA,"TUNA, BIGEYE","22,558",10,"103,065",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2021,VIRGINIA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2021,VIRGINIA,"TUNA, BLUEFIN","23,449",11,"99,888",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2021,VIRGINIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2021,VIRGINIA,"TUNA, YELLOWFIN","20,978",10,"65,907",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2021,WASHINGTON,"TUNA, ALBACORE","4,210,968","1,910","8,508,934",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2021,WASHINGTON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2021,WASHINGTON,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,PACFIN
+2020,ALABAMA,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,ALABAMA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2020,ALABAMA,"TUNA, LITTLE TUNNY","63,954",29,"45,683",Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2020,ALABAMA,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,ALABAMA,TUNAS **,,,,Confidential,Commercial,Thunnus,172418,GULFFIN
+2020,CALIFORNIA,"TUNA, ALBACORE","569,737",258,"983,114",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2020,CALIFORNIA,"TUNA, BIGEYE","1,043,451",473,"3,142,298",Public,Commercial,Thunnus obesus,172428,PACFIN
+2020,CALIFORNIA,"TUNA, BLUEFIN PACIFIC","510,084",231,"1,186,840",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2020,CALIFORNIA,"TUNA, SKIPJACK","395,635",179,"167,518",Public,Commercial,Katsuwonus pelamis,172401,PACFIN
+2020,CALIFORNIA,"TUNA, YELLOWFIN","3,789,751","1,719","2,584,574",Public,Commercial,Thunnus albacares,172423,PACFIN
+2020,CONNECTICUT,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,CONNECTICUT,"TUNA, BIGEYE","11,251",5,"56,093",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,CONNECTICUT,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,CONNECTICUT,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,FLORIDA-EAST,"TUNA, ALBACORE","311,105",141,"566,801",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,FLORIDA-EAST,"TUNA, BIGEYE","111,529",51,"399,066",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,FLORIDA-EAST,"TUNA, BLACKFIN","7,128",3,"10,505",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,FLORIDA-EAST,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,FLORIDA-EAST,"TUNA, LITTLE TUNNY","232,758",106,"142,782",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,FLORIDA-EAST,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2020,FLORIDA-EAST,"TUNA, YELLOWFIN","108,417",49,"438,849",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,FLORIDA-WEST,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,FLORIDA-WEST,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,FLORIDA-WEST,"TUNA, BLACKFIN","14,340",7,"20,446",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,FLORIDA-WEST,"TUNA, BLUEFIN",163,0,544,Public,Commercial,Thunnus thynnus,172421,ACCSP
+2020,FLORIDA-WEST,"TUNA, LITTLE TUNNY","77,800",35,"46,070",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,FLORIDA-WEST,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2020,FLORIDA-WEST,"TUNA, YELLOWFIN","120,348",55,"430,581",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,GEORGIA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,HAWAII,"TUNA, ALBACORE","128,300",58,"225,984",Public,Commercial,Thunnus alalunga,172419,PIFSC
+2020,HAWAII,"TUNA, BIGEYE","15,697,699","7,120","53,267,955",Public,Commercial,Thunnus obesus,172428,PIFSC
+2020,HAWAII,"TUNA, BLUEFIN","2,317",1,"12,145",Public,Commercial,Thunnus thynnus,172421,PIFSC
+2020,HAWAII,"TUNA, KAWAKAWA","2,900",1,"8,770",Public,Commercial,Euthynnus affinis,172403,PIFSC
+2020,HAWAII,"TUNA, SKIPJACK","315,402",143,"660,974",Public,Commercial,Katsuwonus pelamis,172401,PIFSC
+2020,HAWAII,"TUNA, YELLOWFIN","4,462,181","2,024","13,757,964",Public,Commercial,Thunnus albacares,172423,PIFSC
+2020,LOUISIANA,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,LOUISIANA,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,LOUISIANA,"TUNA, BLACKFIN",347,0,451,Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2020,LOUISIANA,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,LOUISIANA,"TUNA, LITTLE TUNNY",896,0,765,Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2020,LOUISIANA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2020,LOUISIANA,"TUNA, YELLOWFIN","296,778",135,"1,215,202",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,MAINE,"TUNA, BLUEFIN","495,505",225,"1,954,246",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,MARYLAND,"TUNA, ALBACORE","7,259",3,"7,167",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,MARYLAND,"TUNA, BIGEYE","69,821",32,"352,607",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,MARYLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,MARYLAND,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,MARYLAND,"TUNA, YELLOWFIN","37,285",17,"100,581",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,MASSACHUSETTS,"TUNA, ALBACORE","60,357",27,"50,823",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,MASSACHUSETTS,"TUNA, BIGEYE","83,197",38,"351,941",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,MASSACHUSETTS,"TUNA, BLUEFIN","1,075,205",488,"4,200,221",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,MASSACHUSETTS,"TUNA, YELLOWFIN","36,533",17,"105,769",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,MISSISSIPPI,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2020,NEW HAMPSHIRE,"TUNA, BLUEFIN","124,544",56,"474,814",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,NEW HAMPSHIRE,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,NEW JERSEY,"TUNA, ALBACORE","61,846",28,"49,967",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,NEW JERSEY,"TUNA, BIGEYE","254,030",115,"1,227,261",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,NEW JERSEY,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,NEW JERSEY,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,NEW JERSEY,"TUNA, LITTLE TUNNY","6,227",3,"5,446",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,NEW JERSEY,"TUNA, SKIPJACK",89,0,46,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2020,NEW JERSEY,"TUNA, YELLOWFIN","206,840",94,"533,053",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,NEW YORK,"TUNA, ALBACORE","12,008",5,"14,444",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,NEW YORK,"TUNA, BIGEYE","63,023",29,"296,289",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,NEW YORK,"TUNA, BLUEFIN","9,363",4,"22,360",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,NEW YORK,"TUNA, LITTLE TUNNY",693,0,"1,159",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,NEW YORK,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,ACCSP
+2020,NEW YORK,"TUNA, YELLOWFIN","49,227",22,"139,611",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,NORTH CAROLINA,"TUNA, ALBACORE","9,385",4,"9,727",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,NORTH CAROLINA,"TUNA, BIGEYE","347,655",158,"1,616,082",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,NORTH CAROLINA,"TUNA, BLACKFIN","19,482",9,"17,692",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,NORTH CAROLINA,"TUNA, BLUEFIN","372,799",169,"1,483,103",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,NORTH CAROLINA,"TUNA, LITTLE TUNNY","230,685",105,"193,953",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,NORTH CAROLINA,"TUNA, SKIPJACK","1,277",1,"1,328",Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2020,NORTH CAROLINA,"TUNA, YELLOWFIN","602,035",273,"1,397,509",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,OREGON,"TUNA, ALBACORE","4,420,109","2,005","7,054,155",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2020,OREGON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2020,OREGON,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,PACFIN
+2020,RHODE ISLAND,"TUNA, ALBACORE","37,810",17,"19,621",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,RHODE ISLAND,"TUNA, BIGEYE","116,155",53,"457,708",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,RHODE ISLAND,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,RHODE ISLAND,"TUNA, BLUEFIN","35,382",16,"108,183",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,RHODE ISLAND,"TUNA, LITTLE TUNNY","34,515",16,"34,056",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,RHODE ISLAND,"TUNA, YELLOWFIN","73,612",33,"163,879",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,SOUTH CAROLINA,"TUNA, ALBACORE","114,517",52,"51,983",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,SOUTH CAROLINA,"TUNA, BIGEYE","27,165",12,"87,933",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,SOUTH CAROLINA,"TUNA, BLACKFIN","1,143",1,"1,832",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2020,SOUTH CAROLINA,"TUNA, BLUEFIN","11,973",5,"50,130",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,SOUTH CAROLINA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2020,SOUTH CAROLINA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2020,SOUTH CAROLINA,"TUNA, YELLOWFIN","30,100",14,"79,344",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,TEXAS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2020,TEXAS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,GULFFIN
+2020,TEXAS,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,VIRGINIA,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2020,VIRGINIA,"TUNA, BIGEYE","9,171",4,"33,848",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2020,VIRGINIA,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2020,VIRGINIA,"TUNA, YELLOWFIN","6,614",3,"16,176",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2020,WASHINGTON,"TUNA, ALBACORE","10,800,782","4,899","16,068,854",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2020,WASHINGTON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2019,ALABAMA,"TUNA, BLACKFIN","46,049",21,"72,786",Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2019,ALABAMA,"TUNA, LITTLE TUNNY","7,334",3,"5,955",Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2019,ALABAMA,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,CALIFORNIA,"TUNA, ALBACORE","698,026",317,"1,183,042",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2019,CALIFORNIA,"TUNA, BIGEYE","1,317,934",598,"4,242,814",Public,Commercial,Thunnus obesus,172428,PACFIN
+2019,CALIFORNIA,"TUNA, BLACK SKIPJACK",,,,Confidential,Commercial,Euthynnus lineatus,172405,PACFIN
+2019,CALIFORNIA,"TUNA, BLUEFIN PACIFIC","601,986",273,"727,258",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2019,CALIFORNIA,"TUNA, SKIPJACK","42,148",19,"19,955",Public,Commercial,Katsuwonus pelamis,172401,PACFIN
+2019,CALIFORNIA,"TUNA, YELLOWFIN","1,013,320",460,"1,032,548",Public,Commercial,Thunnus albacares,172423,PACFIN
+2019,CONNECTICUT,"TUNA, LITTLE TUNNY",32,0,16,Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,CONNECTICUT,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,CONNECTICUT,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,FLORIDA-EAST,"TUNA, ALBACORE","66,496",30,"133,089",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,FLORIDA-EAST,"TUNA, BIGEYE","104,211",47,"431,083",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,FLORIDA-EAST,"TUNA, BLACKFIN","9,781",4,"12,761",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2019,FLORIDA-EAST,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,FLORIDA-EAST,"TUNA, LITTLE TUNNY","172,246",78,"86,553",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,FLORIDA-EAST,"TUNA, SKIPJACK",310,0,465,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,FLORIDA-EAST,"TUNA, YELLOWFIN","131,767",60,"568,480",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,FLORIDA-WEST,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,FLORIDA-WEST,"TUNA, BLACKFIN","22,715",10,"44,334",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2019,FLORIDA-WEST,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,ACCSP
+2019,FLORIDA-WEST,"TUNA, LITTLE TUNNY","30,839",14,"28,271",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,FLORIDA-WEST,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,ACCSP
+2019,FLORIDA-WEST,"TUNA, YELLOWFIN","128,043",58,"501,214",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,GEORGIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,HAWAII,"TUNA, ALBACORE","272,049",123,"490,244",Public,Commercial,Thunnus alalunga,172419,PIFSC
+2019,HAWAII,"TUNA, BIGEYE","16,585,688","7,523","63,502,248",Public,Commercial,Thunnus obesus,172428,PIFSC
+2019,HAWAII,"TUNA, KAWAKAWA","5,527",3,"17,521",Public,Commercial,Euthynnus affinis,172403,PIFSC
+2019,HAWAII,"TUNA, SKIPJACK","646,538",293,"816,491",Public,Commercial,Katsuwonus pelamis,172401,PIFSC
+2019,HAWAII,"TUNA, YELLOWFIN","5,921,629","2,686","20,595,965",Public,Commercial,Thunnus albacares,172423,PIFSC
+2019,LOUISIANA,"TUNA, ALBACORE","14,291",6,"11,433",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,LOUISIANA,"TUNA, BIGEYE","3,688",2,"21,287",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,LOUISIANA,"TUNA, BLACKFIN",314,0,362,Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2019,LOUISIANA,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,LOUISIANA,"TUNA, LITTLE TUNNY",655,0,619,Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2019,LOUISIANA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,LOUISIANA,"TUNA, YELLOWFIN","412,028",187,"1,779,177",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,MAINE,"TUNA, BLUEFIN","472,157",214,"2,194,816",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,MARYLAND,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,MARYLAND,"TUNA, BIGEYE","118,303",54,"570,570",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,MARYLAND,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2019,MARYLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,MARYLAND,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,MARYLAND,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,MARYLAND,"TUNA, YELLOWFIN","82,659",37,"254,642",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,MASSACHUSETTS,"TUNA, ALBACORE","46,810",21,"44,079",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,MASSACHUSETTS,"TUNA, BIGEYE","190,766",87,"827,796",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,MASSACHUSETTS,"TUNA, BLUEFIN","1,208,206",548,"5,266,006",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,MASSACHUSETTS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,MASSACHUSETTS,"TUNA, YELLOWFIN","212,165",96,"602,635",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,MISSISSIPPI,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2019,NEW HAMPSHIRE,"TUNA, BLUEFIN","120,803",55,"619,891",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,NEW HAMPSHIRE,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,NEW JERSEY,"TUNA, ALBACORE","87,381",40,"77,305",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,NEW JERSEY,"TUNA, BIGEYE","326,579",148,"1,615,942",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,NEW JERSEY,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2019,NEW JERSEY,"TUNA, BLUEFIN","14,366",7,"55,980",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,NEW JERSEY,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,NEW JERSEY,"TUNA, SKIPJACK",604,0,"1,169",Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,NEW JERSEY,"TUNA, YELLOWFIN","190,980",87,"569,804",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,NEW YORK,"TUNA, ALBACORE","18,034",8,"16,124",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,NEW YORK,"TUNA, BIGEYE","89,908",41,"415,312",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,NEW YORK,"TUNA, BLUEFIN","5,400",2,"22,666",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,NEW YORK,"TUNA, LITTLE TUNNY","7,643",3,"10,544",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,NEW YORK,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,NEW YORK,"TUNA, YELLOWFIN","114,758",52,"336,285",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,NORTH CAROLINA,"TUNA, ALBACORE","3,288",1,"4,734",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,NORTH CAROLINA,"TUNA, BIGEYE","260,290",118,"1,253,676",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,NORTH CAROLINA,"TUNA, BLACKFIN","21,107",10,"20,207",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2019,NORTH CAROLINA,"TUNA, BLUEFIN","304,088",138,"1,416,363",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,NORTH CAROLINA,"TUNA, LITTLE TUNNY","232,879",106,"132,165",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,NORTH CAROLINA,"TUNA, SKIPJACK",415,0,328,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,NORTH CAROLINA,"TUNA, YELLOWFIN","444,323",202,"1,173,190",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,OREGON,"TUNA, ALBACORE","6,571,093","2,981","10,856,374",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2019,OREGON,"TUNA, BLUEFIN PACIFIC",631,0,"2,073",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2019,PROCESS AT SEA,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2019,RHODE ISLAND,"TUNA, ALBACORE","30,562",14,"51,384",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,RHODE ISLAND,"TUNA, BIGEYE","129,715",59,"586,730",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,RHODE ISLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,RHODE ISLAND,"TUNA, LITTLE TUNNY","23,312",11,"21,225",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,RHODE ISLAND,"TUNA, YELLOWFIN","92,450",42,"305,061",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,SOUTH CAROLINA,"TUNA, ALBACORE","117,699",53,"219,287",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,SOUTH CAROLINA,"TUNA, BIGEYE","36,825",17,"111,473",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,SOUTH CAROLINA,"TUNA, BLACKFIN","2,575",1,"5,236",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2019,SOUTH CAROLINA,"TUNA, BLUEFIN","7,749",4,"28,942",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,SOUTH CAROLINA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,SOUTH CAROLINA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,SOUTH CAROLINA,"TUNA, YELLOWFIN","40,205",18,"88,185",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,TEXAS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2019,TEXAS,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,VIRGINIA,"TUNA, ALBACORE","8,037",4,"6,191",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2019,VIRGINIA,"TUNA, BIGEYE","35,288",16,"108,811",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2019,VIRGINIA,"TUNA, BLUEFIN","8,157",4,"33,373",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2019,VIRGINIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2019,VIRGINIA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2019,VIRGINIA,"TUNA, YELLOWFIN","18,090",8,"35,974",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2019,WASHINGTON,"TUNA, ALBACORE","9,404,190","4,266","15,720,417",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2019,WASHINGTON,"TUNA, BLUEFIN PACIFIC",491,0,993,Public,Commercial,Thunnus orientalis,172422,PACFIN
+2018,ALABAMA,"TUNA, BLACKFIN",842,0,"1,579",Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2018,ALABAMA,"TUNA, LITTLE TUNNY","5,144",2,"3,238",Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2018,CALIFORNIA,"TUNA, ALBACORE","337,509",153,"463,603",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2018,CALIFORNIA,"TUNA, BIGEYE","1,355,194",615,"4,006,181",Public,Commercial,Thunnus obesus,172428,PACFIN
+2018,CALIFORNIA,"TUNA, BLUEFIN PACIFIC","142,795",65,"393,489",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2018,CALIFORNIA,"TUNA, SKIPJACK","2,478,690","1,124","954,757",Public,Commercial,Katsuwonus pelamis,172401,PACFIN
+2018,CALIFORNIA,"TUNA, YELLOWFIN","3,124,043","1,417","1,713,659",Public,Commercial,Thunnus albacares,172423,PACFIN
+2018,CONNECTICUT,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,CONNECTICUT,"TUNA, LITTLE TUNNY",16,0,29,Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,CONNECTICUT,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,CONNECTICUT,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,FLORIDA-EAST,"TUNA, ALBACORE","65,735",30,"131,759",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,FLORIDA-EAST,"TUNA, BIGEYE","131,294",60,"504,453",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,FLORIDA-EAST,"TUNA, BLACKFIN","10,065",5,"13,794",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,FLORIDA-EAST,"TUNA, BLUEFIN","58,438",27,"234,564",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,FLORIDA-EAST,"TUNA, LITTLE TUNNY","194,990",88,"94,044",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,FLORIDA-EAST,"TUNA, SKIPJACK",130,0,125,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,FLORIDA-EAST,"TUNA, YELLOWFIN","105,733",48,"465,186",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,FLORIDA-EAST,TUNAS **,,,,Confidential,Commercial,Thunnus,172418,ACCSP
+2018,FLORIDA-WEST,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,FLORIDA-WEST,"TUNA, BIGEYE","1,440",1,"5,402",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,FLORIDA-WEST,"TUNA, BLACKFIN","27,997",13,"41,127",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,FLORIDA-WEST,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,ACCSP
+2018,FLORIDA-WEST,"TUNA, LITTLE TUNNY","28,559",13,"23,011",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,FLORIDA-WEST,"TUNA, SKIPJACK","1,118",1,"1,448",Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,FLORIDA-WEST,"TUNA, YELLOWFIN","336,499",153,"1,308,948",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,GEORGIA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,GEORGIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,HAWAII,"TUNA, ALBACORE","221,802",101,"393,078",Public,Commercial,Thunnus alalunga,172419,PIFSC
+2018,HAWAII,"TUNA, BIGEYE","16,056,404","7,283","66,448,843",Public,Commercial,Thunnus obesus,172428,PIFSC
+2018,HAWAII,"TUNA, KAWAKAWA","5,315",2,"16,552",Public,Commercial,Euthynnus affinis,172403,PIFSC
+2018,HAWAII,"TUNA, SKIPJACK","369,258",167,"648,836",Public,Commercial,Katsuwonus pelamis,172401,PIFSC
+2018,HAWAII,"TUNA, YELLOWFIN","7,380,657","3,348","26,402,466",Public,Commercial,Thunnus albacares,172423,PIFSC
+2018,LOUISIANA,"TUNA, ALBACORE","13,656",6,"10,929",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,LOUISIANA,"TUNA, BIGEYE","19,418",9,"99,634",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,LOUISIANA,"TUNA, BLACKFIN","2,545",1,"2,464",Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2018,LOUISIANA,"TUNA, BLUEFIN","7,209",3,"33,187",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,LOUISIANA,"TUNA, LITTLE TUNNY",578,0,486,Public,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2018,LOUISIANA,"TUNA, YELLOWFIN","527,125",239,"2,177,755",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,MAINE,"TUNA, BLUEFIN","544,271",247,"3,203,901",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,MARYLAND,"TUNA, ALBACORE","3,944",2,"6,780",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,MARYLAND,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,MARYLAND,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,MARYLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,MARYLAND,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,MARYLAND,"TUNA, YELLOWFIN","52,086",24,"173,904",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,MARYLAND,TUNAS **,,,,Confidential,Commercial,Thunnus,172418,ACCSP
+2018,MASSACHUSETTS,"TUNA, ALBACORE","2,588",1,"3,936",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,MASSACHUSETTS,"TUNA, BIGEYE","34,743",16,"133,920",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,MASSACHUSETTS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,MASSACHUSETTS,"TUNA, BLUEFIN","915,735",415,"4,957,760",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,MASSACHUSETTS,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,MASSACHUSETTS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,MASSACHUSETTS,"TUNA, YELLOWFIN","39,771",18,"125,499",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,MISSISSIPPI,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2018,NEW HAMPSHIRE,"TUNA, BLUEFIN","196,758",89,"1,144,694",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,NEW JERSEY,"TUNA, ALBACORE","20,291",9,"33,036",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,NEW JERSEY,"TUNA, BIGEYE","255,126",116,"1,342,589",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,NEW JERSEY,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,NEW JERSEY,"TUNA, BLUEFIN","12,798",6,"58,879",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,NEW JERSEY,"TUNA, LITTLE TUNNY","2,441",1,"2,049",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,NEW JERSEY,"TUNA, SKIPJACK",87,0,91,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,NEW JERSEY,"TUNA, YELLOWFIN","124,002",56,"425,455",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,NEW YORK,"TUNA, ALBACORE","1,150",1,"1,618",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,NEW YORK,"TUNA, BIGEYE","26,559",12,"111,691",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,NEW YORK,"TUNA, BLUEFIN","4,250",2,"21,864",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,NEW YORK,"TUNA, LITTLE TUNNY","10,973",5,"14,454",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,NEW YORK,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,NEW YORK,"TUNA, YELLOWFIN","20,659",9,"63,641",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,NORTH CAROLINA,"TUNA, ALBACORE","30,495",14,"43,188",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,NORTH CAROLINA,"TUNA, BIGEYE","283,157",128,"1,401,709",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,NORTH CAROLINA,"TUNA, BLACKFIN","17,858",8,"17,207",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,NORTH CAROLINA,"TUNA, BLUEFIN","188,908",86,"1,118,359",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,NORTH CAROLINA,"TUNA, LITTLE TUNNY","204,177",93,"127,003",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,NORTH CAROLINA,"TUNA, SKIPJACK","2,178",1,"2,173",Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,NORTH CAROLINA,"TUNA, YELLOWFIN","573,610",260,"1,839,996",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,OREGON,"TUNA, ALBACORE","5,813,144","2,637","9,723,605",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2018,OREGON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2018,RHODE ISLAND,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,RHODE ISLAND,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,RHODE ISLAND,"TUNA, BLUEFIN","8,185",4,"38,105",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,RHODE ISLAND,"TUNA, LITTLE TUNNY","30,357",14,"25,514",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,RHODE ISLAND,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,SOUTH CAROLINA,"TUNA, ALBACORE","60,662",28,"99,341",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,SOUTH CAROLINA,"TUNA, BIGEYE","22,746",10,"80,559",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,SOUTH CAROLINA,"TUNA, BLACKFIN","1,685",1,"3,676",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,SOUTH CAROLINA,"TUNA, BLUEFIN","15,251",7,"56,133",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,SOUTH CAROLINA,"TUNA, LITTLE TUNNY","4,730",2,"2,850",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,SOUTH CAROLINA,"TUNA, YELLOWFIN","18,753",9,"63,637",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,TEXAS,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,TEXAS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2018,TEXAS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,TEXAS,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,VIRGINIA,"TUNA, ALBACORE","3,608",2,"6,813",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2018,VIRGINIA,"TUNA, BIGEYE","55,914",25,"248,689",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2018,VIRGINIA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2018,VIRGINIA,"TUNA, BLUEFIN","6,574",3,"31,231",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2018,VIRGINIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2018,VIRGINIA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2018,VIRGINIA,"TUNA, YELLOWFIN","38,856",18,"134,825",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2018,WASHINGTON,"TUNA, ALBACORE","9,176,175","4,162","14,749,298",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2018,WASHINGTON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2017,ALABAMA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2017,ALABAMA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2017,ALABAMA,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,CALIFORNIA,"TUNA, ALBACORE","266,668",121,"550,686",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2017,CALIFORNIA,"TUNA, BIGEYE","1,146,271",520,"3,468,079",Public,Commercial,Thunnus obesus,172428,PACFIN
+2017,CALIFORNIA,"TUNA, BLUEFIN PACIFIC","1,071,315",486,"701,980",Public,Commercial,Thunnus orientalis,172422,PACFIN
+2017,CALIFORNIA,"TUNA, SKIPJACK","91,868",42,"42,095",Public,Commercial,Katsuwonus pelamis,172401,PACFIN
+2017,CALIFORNIA,"TUNA, YELLOWFIN","3,853,754","1,748","2,417,825",Public,Commercial,Thunnus albacares,172423,PACFIN
+2017,CALIFORNIA,TUNAS **,,,,Confidential,Commercial,Thunnus,172418,PACFIN
+2017,CONNECTICUT,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,CONNECTICUT,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,CONNECTICUT,"TUNA, LITTLE TUNNY",168,0,164,Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,CONNECTICUT,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,CONNECTICUT,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,DELAWARE,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,FLORIDA-EAST,"TUNA, ALBACORE","83,129",38,"134,405",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,FLORIDA-EAST,"TUNA, BIGEYE","142,410",65,"511,373",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,FLORIDA-EAST,"TUNA, BLACKFIN","15,026",7,"17,839",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2017,FLORIDA-EAST,"TUNA, BLUEFIN","48,036",22,"175,112",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,FLORIDA-EAST,"TUNA, LITTLE TUNNY","269,278",122,"117,455",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,FLORIDA-EAST,"TUNA, SKIPJACK",619,0,"1,994",Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,FLORIDA-EAST,"TUNA, YELLOWFIN","140,860",64,"649,648",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,FLORIDA-WEST,"TUNA, ALBACORE","1,723",1,"1,880",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,FLORIDA-WEST,"TUNA, BIGEYE","4,512",2,"20,768",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,FLORIDA-WEST,"TUNA, BLACKFIN","18,448",8,"28,061",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2017,FLORIDA-WEST,"TUNA, BLUEFIN","2,596",1,"8,608",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,FLORIDA-WEST,"TUNA, LITTLE TUNNY","108,940",49,"55,417",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,FLORIDA-WEST,"TUNA, SKIPJACK",449,0,188,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,FLORIDA-WEST,"TUNA, YELLOWFIN","692,897",314,"2,453,988",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,GEORGIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,HAWAII,"TUNA, ALBACORE","278,636",126,"504,874",Public,Commercial,Thunnus alalunga,172419,PIFSC
+2017,HAWAII,"TUNA, BIGEYE","17,091,957","7,753","64,786,140",Public,Commercial,Thunnus obesus,172428,PIFSC
+2017,HAWAII,"TUNA, KAWAKAWA","6,758",3,"17,327",Public,Commercial,Euthynnus affinis,172403,PIFSC
+2017,HAWAII,"TUNA, SKIPJACK","496,172",225,"772,408",Public,Commercial,Katsuwonus pelamis,172401,PIFSC
+2017,HAWAII,"TUNA, YELLOWFIN","7,379,723","3,347","21,269,469",Public,Commercial,Thunnus albacares,172423,PIFSC
+2017,LOUISIANA,"TUNA, ALBACORE","33,634",15,"26,899",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,LOUISIANA,"TUNA, BIGEYE","13,898",6,"71,542",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,LOUISIANA,"TUNA, BLACKFIN","2,786",1,"3,482",Public,Commercial,Thunnus atlanticus,172427,GULFFIN
+2017,LOUISIANA,"TUNA, BLUEFIN","9,962",5,"42,519",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,LOUISIANA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2017,LOUISIANA,"TUNA, YELLOWFIN","618,732",281,"2,438,582",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,MAINE,"TUNA, BLUEFIN","485,277",220,"2,577,815",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,MARYLAND,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,MARYLAND,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,MARYLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,MARYLAND,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,MARYLAND,"TUNA, YELLOWFIN","120,527",55,"394,043",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,MASSACHUSETTS,"TUNA, ALBACORE","29,434",13,"43,809",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,MASSACHUSETTS,"TUNA, BIGEYE","79,473",36,"297,142",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,MASSACHUSETTS,"TUNA, BLUEFIN","794,443",360,"4,123,817",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,MASSACHUSETTS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,MASSACHUSETTS,"TUNA, YELLOWFIN","110,569",50,"351,800",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,MISSISSIPPI,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,GULFFIN
+2017,NEW HAMPSHIRE,"TUNA, BLUEFIN","156,788",71,"852,848",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,NEW JERSEY,"TUNA, ALBACORE","65,582",30,"74,869",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,NEW JERSEY,"TUNA, BIGEYE","300,773",136,"1,297,069",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,NEW JERSEY,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2017,NEW JERSEY,"TUNA, BLUEFIN","9,365",4,"50,693",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,NEW JERSEY,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,NEW JERSEY,"TUNA, SKIPJACK",279,0,505,Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,NEW JERSEY,"TUNA, YELLOWFIN","281,670",128,"868,213",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,NEW YORK,"TUNA, ALBACORE","11,225",5,"13,064",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,NEW YORK,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,NEW YORK,"TUNA, BLUEFIN","8,747",4,"40,016",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,NEW YORK,"TUNA, LITTLE TUNNY","8,951",4,"17,223",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,NEW YORK,"TUNA, SKIPJACK",272,0,283,Public,Commercial,Katsuwonus pelamis,172401,ACCSP
+2017,NEW YORK,"TUNA, YELLOWFIN","44,851",20,"154,623",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,NORTH CAROLINA,"TUNA, ALBACORE","44,505",20,"63,067",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,NORTH CAROLINA,"TUNA, BIGEYE","334,143",152,"1,399,251",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,NORTH CAROLINA,"TUNA, BLACKFIN","15,900",7,"14,159",Public,Commercial,Thunnus atlanticus,172427,ACCSP
+2017,NORTH CAROLINA,"TUNA, BLUEFIN","280,045",127,"1,441,933",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,NORTH CAROLINA,"TUNA, LITTLE TUNNY","216,557",98,"111,736",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,NORTH CAROLINA,"TUNA, SKIPJACK","5,482",2,"4,809",Public,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,NORTH CAROLINA,"TUNA, YELLOWFIN","905,723",411,"2,295,159",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,OREGON,"TUNA, ALBACORE","4,732,244","2,147","10,776,531",Public,Commercial,Thunnus alalunga,172419,PACFIN
+2017,OREGON,"TUNA, BLUEFIN PACIFIC",,,,Confidential,Commercial,Thunnus orientalis,172422,PACFIN
+2017,OREGON,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,PACFIN
+2017,OREGON,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,PACFIN
+2017,RHODE ISLAND,"TUNA, ALBACORE","9,079",4,"4,999",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,RHODE ISLAND,"TUNA, BIGEYE",,,,Confidential,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,RHODE ISLAND,"TUNA, BLUEFIN",,,,Confidential,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,RHODE ISLAND,"TUNA, LITTLE TUNNY","79,951",36,"41,566",Public,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,RHODE ISLAND,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,SOUTH CAROLINA,"TUNA, ALBACORE","47,094",21,"74,966",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,SOUTH CAROLINA,"TUNA, BIGEYE","28,099",13,"94,556",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,SOUTH CAROLINA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2017,SOUTH CAROLINA,"TUNA, BLUEFIN","5,841",3,"28,237",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,SOUTH CAROLINA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,SOUTH CAROLINA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,ACCSP
+2017,SOUTH CAROLINA,"TUNA, YELLOWFIN","34,703",16,"124,001",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,TEXAS,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,GULFFIN
+2017,TEXAS,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,TEXAS,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,VIRGINIA,"TUNA, ALBACORE","33,137",15,"52,396",Public,Commercial,Thunnus alalunga,172419,EXCEPTIONS
+2017,VIRGINIA,"TUNA, BIGEYE","134,355",61,"538,719",Public,Commercial,Thunnus obesus,172428,EXCEPTIONS
+2017,VIRGINIA,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427,ACCSP
+2017,VIRGINIA,"TUNA, BLUEFIN","8,445",4,"25,862",Public,Commercial,Thunnus thynnus,172421,EXCEPTIONS
+2017,VIRGINIA,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402,ACCSP
+2017,VIRGINIA,"TUNA, SKIPJACK",,,,Confidential,Commercial,Katsuwonus pelamis,172401,EXCEPTIONS
+2017,VIRGINIA,"TUNA, YELLOWFIN","120,190",55,"400,919",Public,Commercial,Thunnus albacares,172423,EXCEPTIONS
+2017,WASHINGTON,"TUNA, ALBACORE","11,452,522","5,195","23,494,038",Public,Commercial,Thunnus alalunga,172419,PACFIN
